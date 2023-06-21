@@ -66,11 +66,25 @@ The code utilizes character classes `\d`, `\w`, and `.` to match specific sets o
 * `.` (dot): Matches any character except a newline character.
 
 ### The OR Operator
-
+In context of our code snippet we are using: <br>
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` <br>
+There are no OR Operators. <br>
+However, as it pertains to regex, an OR Operator is represented by a pipe symbol `|`. This allows you to match either one patter or another.
 ### Flags
-
+In context of our code snippet we are using: <br>
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` <br>
+There are no Flags. <br>
+Flags are additional options that modify the behavior of the pattern matching. They are typically appended at the end of the regex and not visible.
 ### Character Escapes
-
+In context of our code snippet we are using: <br>
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` <br>
+There are no Character Escapes. <br>
+Character Excapes use the backslash `\` followed by a special character to match that character literally instead of interpreting its special meaning. <br>
+However, there are character escapes within character classes, such as `\.` to match a literal dot.
 ## Author
+This tutorial was created by Trace Martin. I was a teacher of 7 years now looking to change careers and move into the Tech industry. I am hopefull that this tutorial can shed some light on regular expressions and help guide others during their journey!
+[Github](https://github.com/trace-martin)
+## Resources
+[Regular Expression Tutorial](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial)
+[Introduction to Regular Expressions](https://www.youtube.com/watch?v=7DG3kCDx53c)
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
